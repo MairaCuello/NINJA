@@ -10,7 +10,7 @@
         "spec": ">=5.0.1 <6.0.0",
         "type": "range"
       },
-      "C:\\Users\\Moi\\Documents\\Visual Studio 2015\\Projects\\NINJA\\NINJA"
+      "C:\\Users\\Usuario\\Source\\Repos\\NINJA\\NINJA"
     ]
   ],
   "_from": "rxjs@>=5.0.1 <6.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "a7db14ab157f9d7aac6a56e655e7a3860d39bf26",
   "_shrinkwrap": null,
   "_spec": "rxjs@^5.0.1",
-  "_where": "C:\\Users\\Moi\\Documents\\Visual Studio 2015\\Projects\\NINJA\\NINJA",
+  "_where": "C:\\Users\\Usuario\\Source\\Repos\\NINJA\\NINJA",
   "author": {
     "name": "Ben Lesh",
     "email": "ben@benlesh.com"
