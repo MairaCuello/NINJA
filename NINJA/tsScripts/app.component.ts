@@ -1,15 +1,7 @@
 ﻿import { Component } from '@angular/core';
 @Component({
     selector: 'my-app',
-    template: `    
-    <h2>My favorite skill is: {{myskills}}</h2>
-    <p>Skill:</p>
-    <ul>
-      <li *ngFor="let skl of skills">
-        {{ skl }}
-      </li>
-    </ul>
-  `
+    template: ''
 })
 export class AppComponent {
     title = 'ASP.NET MVC 5 with Angular 2';

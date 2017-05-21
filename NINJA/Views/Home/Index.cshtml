@@ -1,32 +1,342 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<my-app>Loading...</my-app>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1 id="font-big-title">Gráfica Natural</h1>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Conoce más</a>
+        <my-app></my-app>
+    </div>
+</header>
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Somos un equipo multidisciplinario integrado por profesionales de las artes gráficas con amplia experiencia en impresión, diseño y fotografía</h2>
+                <br />
+                <p class="lead">
+                    Todas las actividades que desarrollamos están marcadas por un profundo y respetuoso sentido de compromiso con el cliente, su equipo y su objetivo.
+                    En ese camino, transitamos diariamente superando obstáculos y adversidades, compartiendo proyectos e intereses comunes, pero también y fundamentalmente
+                    sumando personas, ilusiones y esperanzas. Pero si usted únicamente necesita una buen imprenta, también le tenemos un espacio reservado, porque de Gráfica Natural
+                    usted también puede esperar naturalmente, la mejor impresión.
+                </p>
+                <p class="lead">
+                    Contamos con la trayectoria y experiencia necesarias para asegurar que sabemos lo que hacemos, y la juventud que se requiere para imprimirle velocidad a nuestra labor cotidiana, la cual desde siempre ha sido nuestro sustento pero fundamentalmente es nuestra vocación.
+                    Nuestro profundo conocimiento del medio, en combinación con una constante preocupación por la capacitación y superación de nuestros recursos humanos y la permanente actualización de los medios y tecnologías que empleamos, nos respaldan en el esfuerzo diario por ofrecer productos y servicios gráficos de óptima calidad.
+                    Un gran optimismo en las posibilidades de nuestro país, su trabajo y su gente, nos hace sentir orgullosos de ser uruguayos cada día más convencidos de que existe una forma de crecer haciendo bien las cosas.
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://www.google.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                </p>
+            </div>
+        </div>
+        <!-- /.row -->
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://www.google.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <!-- /.container -->
+</section>
+<!-- Callout -->
+<aside id="callout" class="callout">
+    <div class="text-vertical-center">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <div class="name-badge">
+                        <h4>
+                            <strong>Luis Nava</strong>
+                        </h4>
+                        <p>Director.</p>
+                        <p>Impresor con más de 30 años en la industria gráfica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <div class="name-badge">
+                        <h4>
+                            <strong>Omar De Souza</strong>
+                        </h4>
+                        <p>Director.</p>
+                        <p>Impresor con más de XX años en la industria gráfica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <div class="name-badge">
+                        <h4>
+                            <strong>Daniel Galván</strong>
+                        </h4>
+                        <p>Impresor. Artista plástico.</p>
+                        <p>Más de 30 años de experiencia en la industria gráfica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <div class="name-badge">
+                        <h4>
+                            <strong>Rosario Ramos</strong>
+                        </h4>
+                        <p>Administración.</p>
+                        <p>Gestión de clientes y proveedores.
+                        Más de 20 años de experiencia en la industria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://www.google.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</aside>
+
+<!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="products" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Algunos de nuestros productos y servicios</h2>
+                <hr class="small">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-print fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Impresión Offset</strong>
+                            </h4>
+                            <p>Ideal para largos tirajes</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-tablet fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Impresión Digital</strong>
+                            </h4>
+                            <p>Tirajes flexibles y óptimos tiempos de entrega</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-paperclip fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Diseño</strong>
+                            </h4>
+                            <p>Desarrollo integral de su marca</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-photo fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Fotografía</strong>
+                            </h4>
+                            <p>"Una imagen dice más que mil palabras"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
     </div>
-</div>
+    <!-- /.container -->
+</section>
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    @*<div class="container">*@
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h2>Qué ofrecemos</h2>
+                <hr class="small">
+                <p class="lead">
+                    <strong> Productos gráficos de óptima calidad, en el tiempo justo, al precio justo.</strong>
+                    Ya sea que necesite un proveedor de impresos que cumpla regularmente con sus pedidos, así como sus requerimientos la calidad y cobre el precio justo, o simplemente necesite ocasionalmente de un impreso; podemos ser la solución que está buscando.
+                </p>
+                <p class="lead">
+                    <strong>Servicios de impresión a agencias de publicidad y estudios de diseño. </strong>
+                        Si usted es un profesional de la publicidad o el diseño y necesita resolver convenientemente las necesidades de impresión demandadas por sus clientes, podemos trabajar en conjunto y ayudarlo profesionalmente a plasmar sus ideas en tinta y papel.
+                </p>
+                <p class="lead">
+                    <strong>Servicios a Editoriales, departamentos de publicación y autores independientes. </strong>
+                        En el área editorial participamos en el desarrollo de proyectos que integran a varios títulos y autores, asegurando tanto la estandarización de calidad que una publicación en serie requiere, como la exitosa culminación de los proyectos en los tiempos en que han sido estipulados.
+
+                </p>
+                <hr class="small">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#">
+                                <img class="img-portfolio img-responsive" src="~/Content/theme/img/portfolio-1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#">
+                                <img class="img-portfolio img-responsive" src="~/Content/theme/img/portfolio-2.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#">
+                                <img class="img-portfolio img-responsive" src="~/Content/theme/img/portfolio-3.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-item">
+                            <a href="#">
+                                <img class="img-portfolio img-responsive" src="~/Content/theme/img/portfolio-4.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+                <a href="#" class="btn btn-dark">View More Items</a>
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    @*</div>*@
+    <!-- /.container -->
+</section>
+
+<section id="clients" class="clients">
+    @*<div class="container">*@
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>Algunos de nuestros Clientes</h2>
+            <hr class="small">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <div class="name-badge">
+                            <h4>
+                                <strong>Bodegas Bouzá</strong>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        
+                        <h4>
+                            <strong>Impresión Digital</strong>
+                        </h4>
+                        <p>Tirajes flexibles y óptimos tiempos de entrega</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-paperclip fa-stack-1x text-primary"></i>
+                        </span>
+                        <h4>
+                            <strong>Diseño</strong>
+                        </h4>
+                        <p>Desarrollo integral de su marca</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-photo fa-stack-1x text-primary"></i>
+                        </span>
+                        <h4>
+                            <strong>Fotografía</strong>
+                        </h4>
+                        <p>"Una imagen dice más que mil palabras"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+    @*</div>*@
+    <!-- /.container -->
+</section>
+
+<!-- Map -->
+<section id="contact" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Grafica+Natural&amp;aq=0&amp;oq=grafica+natural&amp;sll=-34.8665765,-56.2369053&amp;ie=UTF8&amp;hq=Grafica+Natural&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small>
+        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Grafica+Natural/34.8665765,-56.2369053,17z/data=!4m5!3m4!1s0x959f81d2db66c76b:0x381a294b41e732c1!8m2!3d-34.9076686!4d-56.1945672?hl=en-UY"></a>
+    </small>
+</section>
+<!-- Call to Action -->
+<aside id="presupuesto" class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h2>Solicitar Presupuesto</h2>
+                <hr class="small">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4>
+                    <strong>Gráfica Natural</strong>
+                </h4>
+                <p>
+                    Julio Herrera y Obes 1272
+                    <br>Montevideo, Montevideo, Uruguay
+                </p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> (+598) 2908 7628</li>
+                    <li>
+                        <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; NINJA app @DateTime.Now.Year</p>
+            </div>
+        </div>
+    </div>
+    <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+</footer>
+<!-- jQuery -->
+<script src="/Content/theme/vendor/scrollreveal/scrollreveal.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<!-- Custom Theme JavaScript -->

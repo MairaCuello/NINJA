@@ -211,12 +211,54 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-def.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jasmine\jasmine.css" />
+    <Content Include="Content\jasmine\jasmine_favicon.png" />
+    <Content Include="Content\theme\css\creative.css" />
+    <Content Include="Content\theme\css\creative.min.css" />
+    <Content Include="Content\theme\css\stylish-portfolio.css" />
+    <Content Include="Content\theme\img\header.jpg" />
+    <Content Include="Content\theme\img\hoja_GN.png" />
+    <Content Include="Content\theme\img\pexels-photo-259714.jpeg" />
+    <Content Include="Content\theme\img\pexels-photo-30027.jpg" />
+    <Content Include="Content\theme\img\portfolio\fullsize\1.jpg" />
+    <Content Include="Content\theme\img\portfolio\fullsize\2.jpg" />
+    <Content Include="Content\theme\img\portfolio\fullsize\3.jpg" />
+    <Content Include="Content\theme\img\portfolio\fullsize\4.jpg" />
+    <Content Include="Content\theme\img\portfolio\fullsize\5.jpg" />
+    <Content Include="Content\theme\img\portfolio\fullsize\6.jpg" />
+    <Content Include="Content\theme\img\portfolio\thumbnails\1.jpg" />
+    <Content Include="Content\theme\img\portfolio\thumbnails\2.jpg" />
+    <Content Include="Content\theme\img\portfolio\thumbnails\3.jpg" />
+    <Content Include="Content\theme\img\portfolio\thumbnails\4.jpg" />
+    <Content Include="Content\theme\img\portfolio\thumbnails\5.jpg" />
+    <Content Include="Content\theme\img\portfolio\thumbnails\6.jpg" />
+    <Content Include="Content\theme\index-creative.html" />
+    <Content Include="Content\theme\js\creative.js" />
+    <Content Include="Content\theme\js\creative.min.js" />
+    <Content Include="Content\theme\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\theme\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\theme\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\theme\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\theme\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\theme\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\theme\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\theme\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\theme\vendor\jquery\jquery.js" />
+    <Content Include="Content\theme\vendor\jquery\jquery.min.js" />
+    <Content Include="Content\theme\vendor\magnific-popup\jquery.magnific-popup.js" />
+    <Content Include="Content\theme\vendor\magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="Content\theme\vendor\magnific-popup\magnific-popup.css" />
+    <Content Include="Content\theme\vendor\scrollreveal\scrollreveal.js" />
+    <Content Include="Content\theme\vendor\scrollreveal\scrollreveal.min.js" />
     <Content Include="favicon.ico" />
+    <Content Include="Content\theme\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\theme\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\theme\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -226,6 +268,77 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
+    <Content Include="Content\theme\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\theme\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\theme\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\theme\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\theme\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\theme\font-awesome\less\animated.less" />
+    <Content Include="Content\theme\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\theme\font-awesome\less\core.less" />
+    <Content Include="Content\theme\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\theme\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\theme\font-awesome\less\icons.less" />
+    <Content Include="Content\theme\font-awesome\less\larger.less" />
+    <Content Include="Content\theme\font-awesome\less\list.less" />
+    <Content Include="Content\theme\font-awesome\less\mixins.less" />
+    <Content Include="Content\theme\font-awesome\less\path.less" />
+    <Content Include="Content\theme\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\theme\font-awesome\less\stacked.less" />
+    <Content Include="Content\theme\font-awesome\less\variables.less" />
+    <Content Include="Content\theme\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_animated.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_core.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_list.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_path.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\theme\font-awesome\scss\_variables.scss" />
+    <Content Include="Content\theme\less\creative.less" />
+    <Content Include="Content\theme\less\mixins.less" />
+    <Content Include="Content\theme\less\variables.less" />
+    <Content Include="Content\theme\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\theme\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\theme\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\theme\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\theme\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\theme\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\theme\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\theme\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\theme\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\theme\vendor\font-awesome\less\animated.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\core.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\icons.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\larger.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\list.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\path.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Content\theme\vendor\font-awesome\less\variables.less" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\theme\vendor\font-awesome\scss\_variables.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -239,6 +352,16 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\systemjs.config.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Content\theme\img\bg.jpg" />
+    <Content Include="Content\theme\img\callout.jpg" />
+    <Content Include="Content\theme\img\portfolio-1.jpg" />
+    <Content Include="Content\theme\img\portfolio-2.jpg" />
+    <Content Include="Content\theme\img\portfolio-3.jpg" />
+    <Content Include="Content\theme\img\portfolio-4.jpg" />
+    <Content Include="Content\theme\js\bootstrap.js" />
+    <Content Include="Content\theme\js\bootstrap.min.js" />
+    <Content Include="Content\theme\js\index.js" />
+    <Content Include="Content\theme\js\jquery.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -274,8 +397,9 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
-    <Content Include="tsScripts\tsconfig.json" />
     <Content Include="typings.json" />
+    <Content Include="Views\Jasmine\SpecRunner.cshtml" />
+    <Content Include="tsScripts\tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -292,12 +416,13 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
     <TypeScriptCompile Include="tsScripts\app.component.ts" />
     <TypeScriptCompile Include="tsScripts\app.module.ts" />
     <TypeScriptCompile Include="tsScripts\main.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
